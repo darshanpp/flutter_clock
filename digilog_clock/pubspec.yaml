@@ -1,0 +1,43 @@
+name: digilog_clock
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/leave.jpg
+    - assets/sun.png
+    - assets/sunnyback.jpg
+    - assets/sunnybackDark.jpg
+    - assets/cloudylight.jpg
+    - assets/cloudIcon.png
+    - assets/cloudy.jpg
+    - assets/foggyback.jpg
+    - assets/foggyIcon.png
+    - assets/windyIcon.png
+    - assets/windy.jpg
+    - assets/thunderstorm.jpg
+    - assets/snowFall.jpg
+    - assets/snowfallIcon.png
+    - assets/stormIcon.png
+    - assets/rainy.jpg
+    - assets/rainyIcon.png
+  fonts:
+    - family: Environment
+      fonts:
+        - asset: assets/JFWilwod.ttf
